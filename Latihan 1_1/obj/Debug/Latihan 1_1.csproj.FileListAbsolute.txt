@@ -1,0 +1,8 @@
+D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\Latihan 1_1\bin\Debug\Latihan 1_1.exe.config
+D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\Latihan 1_1\bin\Debug\Latihan 1_1.exe
+D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\Latihan 1_1\bin\Debug\Latihan 1_1.pdb
+D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\Latihan 1_1\obj\Debug\Latihan_1_1.Form1.resources
+D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\Latihan 1_1\obj\Debug\Latihan_1_1.Properties.Resources.resources
+D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\Latihan 1_1\obj\Debug\Latihan 1_1.csproj.GenerateResource.Cache
+D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\Latihan 1_1\obj\Debug\Latihan 1_1.exe
+D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\Latihan 1_1\obj\Debug\Latihan 1_1.pdb

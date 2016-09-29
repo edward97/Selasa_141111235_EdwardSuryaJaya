@@ -1,0 +1,9 @@
+D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\Latihan 1_2\bin\Debug\Latihan 1_2.exe.config
+D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\Latihan 1_2\bin\Debug\Latihan 1_2.exe
+D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\Latihan 1_2\bin\Debug\Latihan 1_2.pdb
+D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\Latihan 1_2\obj\Debug\Latihan_1_2.Form1.resources
+D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\Latihan 1_2\obj\Debug\Latihan_1_2.Properties.Resources.resources
+D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\Latihan 1_2\obj\Debug\Latihan 1_2.csproj.GenerateResource.Cache
+D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\Latihan 1_2\obj\Debug\Latihan 1_2.exe
+D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\Latihan 1_2\obj\Debug\Latihan 1_2.pdb
+D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\Latihan 1_2\obj\Debug\Latihan 1_2.csprojResolveAssemblyReference.cache
