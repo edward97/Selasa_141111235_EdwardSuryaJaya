@@ -41,7 +41,6 @@ namespace Latihan_2_1
                     awalTahun = awalTahun.AddDays(1);
                 }
 
-
                 kalender.AddBoldedDate(new DateTime(n, 2, 2));
                 kalKedua.AddBoldedDate(new DateTime(n, 2, 2));
                 n--;
