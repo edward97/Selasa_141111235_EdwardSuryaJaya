@@ -17,47 +17,76 @@ namespace Latihan_3_1
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void ubahFontdanUkuran()
         {
-            if (richTextBox1.SelectionFont.Bold != true && richTextBox1.SelectionFont.Italic == false && richTextBox1.SelectionFont.Underline == false)
+            Font fontLama, fontBaru;
+            string namaFont;
+            float ukuran = 12;
+            FontStyle gaya = 0;
+            byte charset = 0;
+
+            namaFont = jenisFont.Text;
+
+            if (string.IsNullOrEmpty(ukuranFont.Text))
             {
-                richTextBox1.SelectionFont = new Font("Times New Roman", 12, FontStyle.Bold);
-            }
-            else if (richTextBox1.SelectionFont.Italic == true)
-            {
-                richTextBox1.SelectionFont = new Font("Times New Roman", 12, FontStyle.Bold | FontStyle.Italic);
-            }
-            else if (richTextBox1.SelectionFont.Underline == true)
-            {
-                richTextBox1.SelectionFont = new Font("Times New Roman", 12, FontStyle.Bold | FontStyle.Underline);
+                ukuran = 12;
             }
             else
             {
-                richTextBox1.SelectionFont = new Font("Times New Roman", 12, FontStyle.Regular);
+                ukuran = float.Parse(ukuranFont.Text);
+            }
+
+            fontLama = isiKonten.SelectionFont;
+
+            if (fontLama == null)
+            {
+                gaya = FontStyle.Regular;
+            }
+            else
+            {
+                gaya = fontLama.Style;
+                charset = fontLama.GdiCharSet;
+            }
+
+            fontBaru = new Font(namaFont, ukuran, gaya, GraphicsUnit.Point, charset);
+            isiKonten.SelectionFont = fontBaru;
+            isiKonten.Focus();
+        }
+
+        private void cetakTebal_Click(object sender, EventArgs e)
+        {
+            Font cekFont = isiKonten.SelectionFont;
+            if (cekFont != null)
+            {
+                isiKonten.SelectionFont = new Font(cekFont, cekFont.Style ^ FontStyle.Bold);
             }
         }
 
-        private void miring_Click(object sender, EventArgs e)
+        private void cetakMiring_Click(object sender, EventArgs e)
         {
-            if (richTextBox1.SelectionFont.Italic != true)
+            Font cekFont = isiKonten.SelectionFont;
+            if (cekFont != null)
             {
-                richTextBox1.SelectionFont = new Font("Times New Roman", 12, FontStyle.Italic);
-            }
-            else
-            {
-                richTextBox1.SelectionFont = new Font("Times New Roman", 12, FontStyle.Regular);
+                isiKonten.SelectionFont = new Font(cekFont, cekFont.Style ^ FontStyle.Italic);
             }
         }
 
-        private void garisBawah_Click(object sender, EventArgs e)
+        private void cetakGaris_Click(object sender, EventArgs e)
         {
-            if (richTextBox1.SelectionFont.Underline != true)
+            Font cekFont = isiKonten.SelectionFont;
+            if (cekFont != null)
             {
-                richTextBox1.SelectionFont = new Font("Times New Roman", 12, FontStyle.Underline);
+                isiKonten.SelectionFont = new Font(cekFont, cekFont.Style ^ FontStyle.Underline);
             }
-            else
+        }
+
+        private void gantiWarna_Click(object sender, EventArgs e)
+        {
+            var warna = new ColorDialog();
+
+            if (warna.ShowDialog() == DialogResult.OK)
             {
-                richTextBox1.SelectionFont = new Font("Times New Roman", 12, FontStyle.Regular);
+                isiKonten.SelectionColor = warna.Color;
             }
         }
 
@@ -68,15 +97,24 @@ namespace Latihan_3_1
                 jenisFont.Items.Add(oneFontFamily.Name);
             }
 
-            jenisFont.Text = this.richTextBox1.Font.Name.ToString();
-            ukuranFont.Text = this.richTextBox1.Font.Size.ToString();
+            int[] uk = { 8, 9, 10, 11, 12, 14, 16, 18, 20, 22, 24, 26, 28, 36, 48, 72 };
+            foreach (int i in uk)
+            {
+                ukuranFont.Items.Add(i);
+            }
 
-            richTextBox1.Focus();
+            jenisFont.Text = this.isiKonten.Font.Name.ToString();
+            ukuranFont.Text = this.isiKonten.Font.Size.ToString();
         }
 
-        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        private void ukuranFont_SelectedIndexChanged(object sender, EventArgs e)
         {
+            ubahFontdanUkuran();
+        }
 
+        private void jenisFont_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            ubahFontdanUkuran();
         }
     }
 }
