@@ -201,5 +201,45 @@ namespace Latihan_5_1
             childForm.MaximizeBox = false;
             childForm.FormBorderStyle = FormBorderStyle.FixedToolWindow;
         }
+
+        private void isiKonten_MouseUp(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Right)
+            {
+                this.klikKanan.Show(this, e.X, e.Y);
+                if (isiKonten.SelectionLength == 0)
+                {
+                    klikKanan.Items[0].Enabled = false;
+                    klikKanan.Items[2].Enabled = false;
+                    klikKanan.Items[4].Enabled = false;
+                }
+                else
+                {
+                    klikKanan.Items[0].Enabled = true;
+                    klikKanan.Items[2].Enabled = true;
+                    klikKanan.Items[4].Enabled = true;
+                }
+            }
+        }
+
+        private void cutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            isiKonten.Copy();
+        }
+
+        private void copyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            isiKonten.Paste();
+        }
+
+        private void cutToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            isiKonten.Cut();
+        }
+
+        private void deleteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            isiKonten.SelectedText = "";
+        }
     }
 }
