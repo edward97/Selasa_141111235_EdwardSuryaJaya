@@ -1,9 +1,10 @@
-D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\Latihan 5_1\bin\Debug\Latihan 4_1.exe.config
-D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\Latihan 5_1\obj\Debug\Latihan 4_1.exe
-D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\Latihan 5_1\obj\Debug\Latihan 4_1.pdb
-D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\Latihan 5_1\bin\Debug\Latihan 4_1.exe
-D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\Latihan 5_1\bin\Debug\Latihan 4_1.pdb
-D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\Latihan 5_1\obj\Debug\Latihan_3_1.Form1.resources
-D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\Latihan 5_1\obj\Debug\Latihan_4_1.Properties.Resources.resources
-D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\Latihan 5_1\obj\Debug\Latihan 5_1.csproj.GenerateResource.Cache
+D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\Latihan 5_1\bin\Debug\Latihan 5_1.exe.config
+D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\Latihan 5_1\bin\Debug\Latihan 5_1.exe
+D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\Latihan 5_1\bin\Debug\Latihan 5_1.pdb
 D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\Latihan 5_1\obj\Debug\Latihan 5_1.csprojResolveAssemblyReference.cache
+D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\Latihan 5_1\obj\Debug\Latihan_5_1.mainForm.resources
+D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\Latihan 5_1\obj\Debug\Latihan_5_1.miniForm.resources
+D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\Latihan 5_1\obj\Debug\Latihan_5_1.Properties.Resources.resources
+D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\Latihan 5_1\obj\Debug\Latihan 5_1.csproj.GenerateResource.Cache
+D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\Latihan 5_1\obj\Debug\Latihan 5_1.exe
+D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\Latihan 5_1\obj\Debug\Latihan 5_1.pdb

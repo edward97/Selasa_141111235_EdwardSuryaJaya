@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Latihan 3_1")]
+[assembly: AssemblyTitle("Latihan 5_1")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Latihan 3_1")]
+[assembly: AssemblyProduct("Latihan 5_1")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("7ed91f5a-f4b3-49c7-98b1-90c1fb26ca1c")]
+[assembly: Guid("5648c96c-1844-4e0f-9c96-1dc04fc9cdbc")]
 
 // Version information for an assembly consists of the following four values:
 //
