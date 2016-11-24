@@ -1,0 +1,9 @@
+D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\VolleyBall_Problem\bin\Debug\VolleyBall_Problem.exe.config
+D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\VolleyBall_Problem\bin\Debug\VolleyBall_Problem.exe
+D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\VolleyBall_Problem\bin\Debug\VolleyBall_Problem.pdb
+D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\VolleyBall_Problem\obj\Debug\VolleyBall_Problem.csprojResolveAssemblyReference.cache
+D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\VolleyBall_Problem\obj\Debug\VolleyBall_Problem.Properties.Resources.resources
+D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\VolleyBall_Problem\obj\Debug\VolleyBall_Problem.csproj.GenerateResource.Cache
+D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\VolleyBall_Problem\obj\Debug\VolleyBall_Problem.exe
+D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\VolleyBall_Problem\obj\Debug\VolleyBall_Problem.pdb
+D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\VolleyBall_Problem\obj\Debug\VolleyBall_Problem.VolleyBall_Problem.resources
