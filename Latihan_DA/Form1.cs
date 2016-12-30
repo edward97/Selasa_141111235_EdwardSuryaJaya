@@ -56,7 +56,7 @@ namespace Latihan_DA
             customerDA.SelectCommand = new MySqlCommand(customerSelectSql, conn);
 
             // INSERT
-            string customerInsertSql = String.Concat("INSERT INTO customer (name, address, zip_code, phone_number, email,created_at) VALUES (@name, @address, @zip_code, @phone_number, @email,@created_at)");
+            string customerInsertSql = String.Concat("INSERT INTO customer (name, address, zip_code, phone_number, email,created_at,updated_at) VALUES (@name, @address, @zip_code, @phone_number, @email,@created_at,@updated_at)");
             /*string sql = "INSERT into customer (name,address,zip_code,phone_number,email,create_at,update_at)";
             sql += "VALUES(@name,@address,@zip_code,@phone_number,@email)";*/
             MySqlCommand customerInsertCommand = new MySqlCommand(customerInsertSql, conn);
@@ -67,13 +67,12 @@ namespace Latihan_DA
             customerInsertCommand.Parameters.AddWithValue("@phone_number", txPhoneNumber.Text);
             customerInsertCommand.Parameters.AddWithValue("@email", txEmail.Text);
             customerInsertCommand.Parameters.AddWithValue("@created_at", DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss"));
-            // customerInsertCommand.Parameters.AddWithValue("@updated_at", DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss"));
+            customerInsertCommand.Parameters.AddWithValue("@updated_at", DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss"));
             customerDA.InsertCommand = customerInsertCommand;
             //MessageBox.Show(sql);
 
-
             // UPDATE
-            string customerUpdateSql = String.Concat("UPDATE customer SET name = @name, address = @address, zip_code = @zip_code, phone_number = @phone_number, email = @email WHERE id = @id");
+            string customerUpdateSql = String.Concat("UPDATE customer SET name = @name, address = @address, zip_code = @zip_code, phone_number = @phone_number, email = @email, updated_at = @updated_at WHERE id = @id");
             MySqlCommand customerUpdateCommand = new MySqlCommand(customerUpdateSql, conn);
             customerUpdateCommand.Parameters.AddWithValue("@id", txId.Text);
             customerUpdateCommand.Parameters.AddWithValue("@name", txName.Text);
@@ -81,10 +80,11 @@ namespace Latihan_DA
             customerUpdateCommand.Parameters.AddWithValue("@zip_code", txZipCode.Text);
             customerUpdateCommand.Parameters.AddWithValue("@phone_number", txPhoneNumber.Text);
             customerUpdateCommand.Parameters.AddWithValue("@email", txEmail.Text);
+            customerUpdateCommand.Parameters.AddWithValue("@updated_at", DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss"));
             customerDA.UpdateCommand = customerUpdateCommand;
 
-            // delete
-
+            // DELETE
+            
 
         }
 
@@ -95,8 +95,6 @@ namespace Latihan_DA
             if (txId.Text == "")
             {
                 pesan = String.Concat(customerDA.InsertCommand.ExecuteNonQuery(), " Record succesfully saved.");
-
-                // MessageBox.Show(pesan);
             }
             else
             {
@@ -110,18 +108,27 @@ namespace Latihan_DA
 
         private void resetForm_Click(object sender, EventArgs e)
         {
-
+            txId.Clear();
+            txName.Clear();
+            txAddress.Clear();
+            txZipCode.Clear();
+            txPhoneNumber.Clear();
+            txEmail.Clear();
         }
 
         private void deleteDB_Click(object sender, EventArgs e)
         {
+            initializeDA();
+            string pesan = "";
             if (dgvDaftar.SelectedRows.Count > 0)
             {
-                string customerDeleteSql = String.Concat("DELETE FROM customer WHERE ID= @id");
+                string customerDeleteSql = String.Concat("DELETE FROM customer WHERE ID = @id");
                 MySqlCommand customerDeleteCommand = new MySqlCommand(customerDeleteSql, conn);
-                customerDeleteCommand.Parameters.AddWithValue("@id", Convert.ToString(dgvDaftar.SelectedCells[0].Value));
-                customerDeleteCommand.ExecuteNonQuery();
+                customerDeleteCommand.Parameters.AddWithValue("@id", dgvDaftar.SelectedCells[0].Value);
+                customerDA.DeleteCommand = customerDeleteCommand;
+                pesan = String.Concat(customerDA.DeleteCommand.ExecuteNonQuery(), " Record succesfully deleted.");
                 customerDA.SelectCommand.ExecuteScalar();
+                MessageBox.Show(pesan, "Save Information");
                 dt.Clear();
                 customerDA.Fill(dt);
             }
@@ -140,6 +147,16 @@ namespace Latihan_DA
         {
             conn.Close();
             conn.Dispose();
+        }
+
+        private void dgvDaftar_RowHeaderMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            txId.Text = dgvDaftar.Rows[e.RowIndex].Cells[0].Value.ToString();
+            txName.Text = dgvDaftar.Rows[e.RowIndex].Cells[1].Value.ToString();
+            txAddress.Text = dgvDaftar.Rows[e.RowIndex].Cells[2].Value.ToString();
+            txZipCode.Text = dgvDaftar.Rows[e.RowIndex].Cells[3].Value.ToString();
+            txPhoneNumber.Text = dgvDaftar.Rows[e.RowIndex].Cells[4].Value.ToString();
+            txEmail.Text = dgvDaftar.Rows[e.RowIndex].Cells[5].Value.ToString();
         }
     }
 }

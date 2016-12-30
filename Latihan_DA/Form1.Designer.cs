@@ -193,6 +193,7 @@
             this.dgvDaftar.Name = "dgvDaftar";
             this.dgvDaftar.Size = new System.Drawing.Size(806, 312);
             this.dgvDaftar.TabIndex = 28;
+            this.dgvDaftar.RowHeaderMouseDoubleClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgvDaftar_RowHeaderMouseDoubleClick);
             // 
             // Latihan_DA
             // 
