@@ -1,0 +1,13 @@
+D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\Latihan_DA\bin\Debug\Latihan_DA.exe.config
+D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\Latihan_DA\bin\Debug\Latihan_DA.exe
+D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\Latihan_DA\bin\Debug\Latihan_DA.pdb
+D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\Latihan_DA\obj\Debug\Latihan_DA.Latihan_DA.resources
+D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\Latihan_DA\obj\Debug\Latihan_DA.Properties.Resources.resources
+D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\Latihan_DA\obj\Debug\Latihan_DA.csproj.GenerateResource.Cache
+D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\Latihan_DA\obj\Debug\Latihan_DA.exe
+D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\Latihan_DA\obj\Debug\Latihan_DA.pdb
+D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\Latihan_DA\bin\Debug\MySql.Data.dll
+D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\Latihan_DA\bin\Debug\MySql.Data.xml
+D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\Latihan_DA\obj\Debug\Latihan_DA.csprojResolveAssemblyReference.cache
+D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\Latihan_DA\bin\Debug\MySql.Web.dll
+D:\File Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141111235_EdwardSuryaJaya\Latihan_DA\bin\Debug\MySql.Web.xml
